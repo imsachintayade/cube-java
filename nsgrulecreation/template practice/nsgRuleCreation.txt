@@ -1,0 +1,102 @@
+//Program while Execution
+
+NSG Rules Creation
+
+Total no. of Subnets - 2
+
+Name for 1st Subnet for NSG - appsubnet
+Name for 2nd Subnet for NSG - pl
+
+Total no. of Inbound/Outbound for appsubnet subnet - 4
+
+No. of Inbound for appsubnet - 2
+No. of Outbound for appsubnet - 2
+
+Inbound for appsubnet subnet: 2
+
+1st Inbound from subnet name - any
+1st Inbound Protocol - https
+1st Inbound Port - 443
+
+2nd Inbound from subnet name - any
+2nd Inbound Protocol - tcp
+2nd Inbound Port - 1433
+
+Outbound for appsubnet subnet: 2
+
+1st Outbound to subnet name - pl
+1st Outbound Protocol - https
+1st Outbound Port - 443
+
+2nd Outbound to subnet name - pl
+2nd Outbound Protocol - tcp
+2nd Outbound Port - 1433
+
+Total no. of Inbound/Outbound for pl subnet - 2
+
+No. of Inbound for appsubnet - 2
+No. of Outbound for appsubnet - 1
+
+Inbound for pl subnet: 2
+
+1st Inbound from subnet name - appsubet
+1st Inbound Protocol - https
+1st Inbound Port - 443
+
+2nd Inbound from subnet name - appsubet
+2nd Inbound Protocol - tcp
+2nd Inbound Port - 1433
+
+Outbound for appsubnet subnet: 1
+
+1st Outbound to subnet name - any
+1st Outbound Protocol - https
+1st Outbound Port - 443 
+
+-----------------------------------------
+
+//Output
+
+NSG Rules for appsubnet,pl subnet:
+
+1. appsubnet Subnet
+
+Inbound Rules:
+
+allow-inbound-https-any-appsubnet-001
+allow-inbound-tcp-any-appssubnet-001
+
+Outbound for appsubnet:
+
+allow-outbound-https-appsubnet-pl-001
+allow-outbound-tcp-appssubnet-pl-001
+
+2. pl Subnet
+
+Inbound Rules:
+
+allow-inbound-https-appsubnet-pl-001
+allow-inbound-tcp-appssubnet-pl-001
+
+Outbound for appsubnet:
+
+allow-outbound-https-pl-any-001
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
