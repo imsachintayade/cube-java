@@ -14,3 +14,56 @@ Program is an attempt to create multiple Inbound/Outbound rule for Subnet given 
 
 Program is written in Java.
 
+Try this program and give your feedback. Thank You.
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Your Frindly Friend,
+ SachinTayade
